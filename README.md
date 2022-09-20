@@ -92,7 +92,7 @@ I applied boxplot to determine the existence of outlier. The graph shows that th
 ![boxplot](https://github.com/CeliaShu1024/NTU-SUMMER-BUSINESS-ANALYTICS-2022-FINAL-PROJECT/blob/main/Plots/boxplot.png)
 </br>
 To drop outliers, I removed samples with z-score less than 2.5. After that I sketched the client characteristics. Based on this sketch, the income levels of settled and unsettled clients are basically same. The age of clients who have settled their loan falls between 18 and 35, and peaks in the range [25, 30]. In contrast, the age of unsettled clients falls between 20 and 65, and is mainly concentrated in the [35, 65] interval. In terms of loan amount, the loan amount of settled clients is approximately normally distributed in the interval [2000, 13000], while unsettled clients are more likely to apply small loan.</br>
-![client characteristics](https://github.com/CeliaShu1024/NTU-SUMMER-BUSINESS-ANALYTICS-2022-FINAL-PROJECT/blob/main/Plots/statistics.png)
+![client_characteristics](https://github.com/CeliaShu1024/NTU-SUMMER-BUSINESS-ANALYTICS-2022-FINAL-PROJECT/blob/main/Plots/statistics.png)
 </br>
 In order to make each attribute to have the same effect in the regression analysis, I normalized the dataset by `StandardScaler()` after the above steps. </br>
 
